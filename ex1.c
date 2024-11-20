@@ -1,7 +1,7 @@
 #include <stdio.h>
+#define tamanho 10
 
 int main() {
-    int tamanho = 10;
     float *vetor[tamanho];
 
     for (int i = 0; i < tamanho; i++) {
